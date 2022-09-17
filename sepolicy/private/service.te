@@ -1,0 +1,2 @@
+type DisplayFeatureControl, service_manager_type;
+type perfshielder, service_manager_type;
