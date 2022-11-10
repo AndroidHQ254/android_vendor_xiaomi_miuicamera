@@ -12,35 +12,3 @@ android_app_import {
 	},
 	privileged: true,
 }
-
-android_app_import {
-        name: "MiuiExtraPhoto",
-        owner: "MiuiExtraPhoto",
-        apk: "proprietary/system/priv-app/MiuiExtraPhoto/MiuiExtraPhoto.apk",
-        certificate: "platform",
-        dex_preopt: {
-                enabled: false,
-        },
-        privileged: true,
-}
-
-android_app_import {
-        name: "MiuiScanner",
-        owner: "MiuiScanner",
-        apk: "proprietary/system/priv-app/MiuiScanner/MiuiScanner.apk",
-        certificate: "platform",
-        dex_preopt: {
-                enabled: false,
-        },
-        privileged: true,
-}
-
-android_app_import {
-        name: "miuires",
-        owner: "miuires",
-        apk: "proprietary/system/app/miuires/miuires.apk",
-        certificate: "platform",
-        dex_preopt: {
-                enabled: false,
-        },
-}
